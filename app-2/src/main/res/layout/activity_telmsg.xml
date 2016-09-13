@@ -7,7 +7,7 @@
     tools:context="cn.feicui.com.main.TelmsgActivity">
 
     <TextView
-        android:id="@+id/tel_showText"
+        style="@style/tel_showtext"
         android:layout_width="match_parent"
         android:layout_height="@dimen/tel_show_height"
         android:layout_weight="0"/>

@@ -46,7 +46,7 @@ public class LogoActivity extends Activity {
 
         @Override
         public void onAnimationRepeat(Animation animation) {
-            Intent intent = new Intent(LogoActivity.this,MainActivity.class);
+            Intent intent = new Intent(LogoActivity.this,TelmsgActivity.class);
             startActivity(intent);
             finish();
         }
